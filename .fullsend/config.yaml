@@ -10,11 +10,6 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: local-ping
-      source: harness/local-ping.yaml
-    - name: url-mixed
-      source: https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d587edb3719a8d1ce33ae9dcdf10-allow-6ceb58f9-url-harness-host/main/harness/url-mixed.yaml#sha256=3f148664e9c850486215fa476e76ab589de493ed288947a6165a32b63def6392
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
